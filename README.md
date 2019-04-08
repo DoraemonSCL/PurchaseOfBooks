@@ -11,3 +11,4 @@ UML工具：      EA
 开发模型：     敏捷开发、迭代模型  
 框架：         SSM+mybatis+maven(暂定)  
 估算方法：     任务量(功能点)+难易程度  
+下载GitHub单个文件/夹方法：**DownGit**  
