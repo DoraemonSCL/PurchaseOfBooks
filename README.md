@@ -3,6 +3,7 @@
 项目文件夹介绍：代码 +  设计资料  
 **项目工具：**  
 存储工具    ： github   
+代码同步工具：git  
 任务分配工具： worktile  
 画图工具：     MS Visio  
 UML工具：      EA  
