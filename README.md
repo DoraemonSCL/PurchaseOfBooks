@@ -10,6 +10,6 @@
 UML工具：      EA  
 代码平台：     Intellij idea  
 开发模型：     敏捷开发、迭代模型  
-框架：         spring boot + SSM+maven + bootstrap 
+框架：         spring boot + SSM+maven + bootstrap   
 估算方法：     任务量(功能点)+难易程度  
 下载GitHub单个文件/夹方法：**DownGit**  
