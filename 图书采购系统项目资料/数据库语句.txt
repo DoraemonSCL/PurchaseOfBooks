@@ -1,0 +1,17 @@
+create database purchaseofbooks;
+create table student(s_no char(255)  primary key , s_name char(255) , s_sex char(255) , s_age tinyint , s_class char(20) , s_pay decimal(8,2));
+create table book(b_no char(255) primary key  , b_name char(255) , b_publish char(50) , b_data date , b_info char(255) , b_quantity tinyint , b_price decimal(8,2));
+create table teacher(t_no char(255)  primary key , t_name char(10) , t_department char(50) , t_title char(10));
+create table studentbook(s_no char(255) , b_no char(255) , sb_data date);
+create table teacherbook(t_no char(255) , b_no char(255) , tb_data date);
+create table user(id INT(11) primary key ,username char(255) , password char(255) , type char(20));
+create table userorder(o_no char(255) primary key, s_no char(255) , b_name char(255) , b_no char(255) , b_publish char(50) , b_price decimal(8,2) , o_quantity tinyint);
+insert into student(s_no , s_name , s_sex , s_age , s_class , s_pay) values('10010' , '小叮当' , '男' , 20 , '大一' , 500.00);
+insert into book(b_no , b_name , b_publish , b_data  , b_info , b_quantity ,b_price)values('01' , '人类简史' , '机械工业出版社' , '2010-11-12' , '******' , 50,52.00 );
+insert into book(b_no , b_name , b_publish , b_data  , b_info , b_quantity ,b_price)values('02' , '国富论' , '华夏出版社' , '2005-1-0' , '亚当·斯密并不是经济学说的最早开拓者，他最著名的思想中有许多也并非新颖独特，但是他首次提出了全面系统的经济学说，为该领域的发展打下了良好的基础。因此完全可以说《国富论》是现代政治经济学研究的起点。' , 100,69.00 );
+insert into teacher(t_no , t_name  , t_department  , t_title )values('110' , '严蔚敏' , '计算机系', '教授') ;
+insert into user(id , username , password , type)values(1 ,'admin' , '123456' , 'administrator');
+select * from book;
+select * from student;
+select * from user;
+delete from userorder where o_no = 1;
