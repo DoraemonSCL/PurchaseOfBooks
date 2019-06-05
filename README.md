@@ -13,3 +13,5 @@ UML工具：      EA
 框架：         spring boot + SSM+maven + bootstrap   
 估算方法：     任务量(功能点)+难易程度  
 下载GitHub单个文件/夹方法：**DownGit**  
+**参考书目：**  JavaScript权威指南(第6版)(中文版).pdf
+  SpringBoot实战_第4版_清晰.pdf  Spring实战（第4版）.pdf  深入浅出Spring Boot 2.x.pdf  深入理解bootstrap_完整版.pdf  Head First HTML与CSS、XHTML(中文版).pdf  
